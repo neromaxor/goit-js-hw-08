@@ -87,7 +87,9 @@ images.forEach(({ preview, original, description }) => {
   imagesPhoto.appendChild(listItem);
 });
 
+
 let modal;
+
 
 imagesPhoto.addEventListener("click", (event) => {
   event.preventDefault();
